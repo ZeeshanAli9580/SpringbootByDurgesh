@@ -1,4 +1,4 @@
-package com.onlyjavatech.Zeeshan;
+package com.onlyjavatech.Zeeshan.Controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,7 +10,8 @@ public class TestController {
 	@RequestMapping("/test")
 	public String firstHandler()
 	{
-		return " Just for the testing ";
+		System.out.println("Test conttroller Executed !!");
+		return "Just for the testing ";
 		
 	}
 	
