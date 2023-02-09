@@ -5,13 +5,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@ResponseBody
+/* @ResponseBody */
 public class TestController {
-	@RequestMapping("/test")
+	@RequestMapping("/Hello")
 	public String firstHandler()
 	{
-		System.out.println("Test conttroller Executed !!");
-		return "Just for the testing ";
+		System.out.println("Hello conttroller Executed !!");
+		return "Hello";
 		
 	}
 	
